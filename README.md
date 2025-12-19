@@ -5,6 +5,16 @@ Tento repozitář je primárně pro mé osobní a studijní účely, ale zárove
 
 ---
 
+## 📍 Aktuální stav
+
+- **NOW:** Section 2/57 — Methods, while loops
+- **Last update:** 2025-12-19  
+- **Progress:** ~7% kurzu
+
+> Detailní log: [`progress.md`](progress.md) *(volitelné, updatuji jen při milestones)*
+
+---
+
 ## Proč to existuje
 Učím se Python systematicky a chci mít jedno místo, kde:
 - ukládám cvičení a vlastní iterace,
@@ -40,9 +50,6 @@ Používám jen když potřebuji:
 - `progress.md` — aktuální stav (NOW / NEXT / DONE).
 
 > Spuštění (How to run) je vždy popsáno u jednotlivých projektů v jejich `README.md`.
-
-## Progress
-Aktuální stav je v: [`progress.md`](progress.md)
 
 ---
 
