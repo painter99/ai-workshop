@@ -43,11 +43,14 @@ Používám jen když potřebuji:
 **Dlouhodobý cíl:** Základy pro AI Engineering
 
 ## Struktura repozitáře
-- `courses/` — materiály a řešení podle konkrétních kurzů (zdrojově orientované).
-- `projects/` — moje vlastní projekty (výstupově orientované, nezávislé na kurzu).
-- `sandbox/` — malé pokusy a "scratchpad" (izolovaný chaos).
-- `notes/` — poznámky ke konceptům (bez nutnosti držet se struktury kurzu).
-- `progress.md` — aktuální stav (NOW / NEXT / DONE).
+
+- **[`courses/`](courses/)** — materiály z kurzů ([Python Mega Course](courses/mega-course/))
+- **[`projects/`](projects/)** — standalone projekty
+- **[`sandbox/`](sandbox/)** — experimenty a scratchpad
+- **[`notes/`](notes/)** — [workflow](notes/workflow.md), [learnings](notes/learnings.md), [blockers](notes/blockers.md)
+- **[`progress.md`](progress.md)** — aktuální stav
+
+> Každá složka obsahuje vlastní README s detailním popisem.
 
 > Spuštění (How to run) je vždy popsáno u jednotlivých projektů v jejich `README.md`.
 
