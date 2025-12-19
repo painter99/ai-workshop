@@ -11,7 +11,7 @@ Tento repozitář je primárně pro mé osobní a studijní účely, ale zárove
 - **Last update:** 2025-12-19  
 - **Progress:** ~7% kurzu
 
-> Detailní log: [`progress.md`](progress.md) *(volitelné, updatuji jen při milestones)*
+> Detailní log: [`progress.md`](progress.md) *(updatuji jen při milestones)*
 
 ---
 
