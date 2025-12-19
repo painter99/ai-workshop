@@ -7,9 +7,9 @@ Tento repozitář je primárně pro mé osobní a studijní účely, ale zárove
 
 ## 📍 Aktuální stav
 
-- **NOW:** Section 2/57 — Methods, while loops
+- **NOW:** Section 3/57 — Match-Case, For Loops
 - **Last update:** 2025-12-19  
-- **Progress:** ~7% kurzu
+- **Progress:** ~9% kurzu
 
 > Detailní log: [`progress.md`](progress.md) *(updatuji jen při milestones)*
 
@@ -51,6 +51,7 @@ Používám jen když potřebuji:
 - **[`progress.md`](progress.md)** — aktuální stav
 
 > Každá složka obsahuje vlastní README s popisem.
+
 > Spuštění (How to run) je vždy popsáno u jednotlivých projektů v jejich `README.md`.
 
 ---
