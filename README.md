@@ -44,7 +44,7 @@ Používám jen když potřebuji:
 
 ## Struktura repozitáře
 
-- **[`courses/`](courses/)** — materiály z kurzů
+- **[`courses/`](courses/)** — přehled kurzů
 - **[`projects/`](projects/)** — standalone projekty
 - **[`sandbox/`](sandbox/)** — experimenty a scratchpad
 - **[`notes/`](notes/)** — [workflow](notes/workflow.md), [learnings](notes/learnings.md), [blockers](notes/blockers.md)
