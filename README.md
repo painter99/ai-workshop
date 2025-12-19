@@ -50,8 +50,7 @@ Používám jen když potřebuji:
 - **[`notes/`](notes/)** — [workflow](notes/workflow.md), [learnings](notes/learnings.md), [blockers](notes/blockers.md)
 - **[`progress.md`](progress.md)** — aktuální stav
 
-> Každá složka obsahuje vlastní README s detailním popisem.
-
+> Každá složka obsahuje vlastní README s popisem.
 > Spuštění (How to run) je vždy popsáno u jednotlivých projektů v jejich `README.md`.
 
 ---
