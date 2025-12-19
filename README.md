@@ -30,7 +30,7 @@ Učím se Python systematicky a chci mít jedno místo, kde:
 ## Kurikulum
 
 ### Aktuální zaměření
-**The Python Mega Course** (Ardit Sulce)  
+**[The Python Mega Course](courses/mega-course/)** (Ardit Sulce)  
 Lineární postup, všechna cvičení, denní studium.
 
 ### Podpůrné zdroje
@@ -44,7 +44,7 @@ Používám jen když potřebuji:
 
 ## Struktura repozitáře
 
-- **[`courses/`](courses/)** — materiály z kurzů ([Python Mega Course](courses/mega-course/))
+- **[`courses/`](courses/)** — materiály z kurzů
 - **[`projects/`](projects/)** — standalone projekty
 - **[`sandbox/`](sandbox/)** — experimenty a scratchpad
 - **[`notes/`](notes/)** — [workflow](notes/workflow.md), [learnings](notes/learnings.md), [blockers](notes/blockers.md)
