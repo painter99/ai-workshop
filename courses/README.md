@@ -1,9 +1,7 @@
 # Courses
 
-Materiály a řešení z kurzů.
+- **Python Mega Course** (Ardit Sulce) — [`mega-course/`](mega-course/)
 
-## Aktuální
-- **Python Mega Course** (Ardit Sulce) — `mega-course/`
+---
 
-## Struktura
-Každý kurz má vlastní podadresář s cvičeními a poznámkami.
+*Každý kurz má vlastní podadresář se zdroji.*
