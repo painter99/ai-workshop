@@ -30,7 +30,7 @@ Tři zásady, nic víc:
 
 ## 📚 Co se učím
 
-**Primární:** [The Python Mega Course](courses/) (Ardit Sulce) — lineární postup, všechna cvičení.
+**Primární:** [The Python Mega Course](courses#1-python-mega-course-ardit-sulce) (Ardit Sulce) — lineární postup, všechna cvičení.
 
 **Podpůrné:** Python for Everybody, Automate the Boring Stuff (dle potřeby).
 
