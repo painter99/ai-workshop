@@ -41,7 +41,7 @@ Tři zásady, nic víc:
 - **[`courses/`](courses/)** — přehled kurzů
 - **[`projects/`](projects/)** — hotové projekty
 - **[`sandbox/`](sandbox/)** — experimenty
-- **[`notes/`](notes/)** — [workflow](notes/workflow.md), [learnings](notes/learnings.md), [blockers](notes/blockers.md)
+- **[`notes/`](notes/)** — [workflow](notes/workflow.md), [learnings](notes/learnings/)
 
 > Každý adresář má vlastní README. Spouštění skriptů je popsáno u jednotlivých projektů.
 
