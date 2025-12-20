@@ -1,58 +1,48 @@
 # Python Workshop
 
 Systematické budování základů v Pythonu na Linuxu.
-Tento repozitář je primárně pro mé osobní a studijní účely, ale zároveň jde o transparentní záznam cesty a práce.
+
+- **Osobní studium:** Strukturované učení od prvních principů.
+- **Transparentní záznam:** Čitelná, dohledatelná cesta — vidět *co* a *proč*.
+- **Cíl:** Pevné základy pro AI Engineering.
 
 ---
 
-## 📍 Aktuální stav
+## 📍 Stav a Orientace
 
-- **NOW:** Section 3/57 — Match-Case, For Loops
-- **Last update:** 2025-12-19  
-- **Progress:** ~9% kurzu
-
-> Detailní log: [`progress.md`](progress.md) *(updatuji jen při milestones)*
-
----
-
-## Proč to existuje
-Učím se Python systematicky a chci mít jedno místo, kde:
-- ukládám cvičení a vlastní iterace,
-- držím konzistentní návyky (čitelnost, validace vstupů, dohledatelnost),
-- můžu se kdykoliv vrátit k tomu, *co* jsem dělal a *proč*.
-
-## Metodologie
-- **First Principles:** pochopit logiku před použitím knihoven.
-- **Defensive Programming:** vstupy validovat, edge cases kontrolovat.
-- **Traceability:** každý logický tok musí být dohledatelný.
-- **No Copy-Paste:** psát jen kód, který dokážu vysvětlit.
-
-## Kurikulum
-
-### Aktuální zaměření
-**[The Python Mega Course](courses/mega-course/)** (Ardit Sulce)  
-Lineární postup, všechna cvičení, denní studium.
-
-### Podpůrné zdroje
-Používám jen když potřebuji:
-- *Python for Everybody* (vysvětlení konceptů)
-- *Automate the Boring Stuff* (praktický kontext)
+- **Aktuálně:** Section 3/57 — Match-Case, For Loops
+- **Poslední update:** 2025-12-20
+- **Pokrok:** ~9 % kurzu
+- **Detailní log:** [`progress.md`](progress.md) *(aktualizuji jen při milestones)*
 
 ---
 
-**Dlouhodobý cíl:** Základy pro AI Engineering
+## 🛠 Metodika (Jak se to dělá)
 
-## Struktura repozitáře
+Tři zásady, nic víc:
 
-- **[`courses/`](courses/)** — přehled kurzů
-- **[`projects/`](projects/)** — standalone projekty
-- **[`sandbox/`](sandbox/)** — experimenty a scratchpad
+1. **First Principles** — pochopit logiku před knihovnami.
+2. **Defensive Programming** — validovat vstupy, kontrolovat edge cases.
+3. **Traceability** — umět vysvětlit a dohledat všechny části kódu.
+
+---
+
+## 📚 Co se učím
+
+**Primární:** [The Python Mega Course](courses/mega-course/) (Ardit Sulce) — lineární postup, všechna cvičení.
+
+**Podpůrné:** Python for Everybody, Automate the Boring Stuff (dle potřeby).
+
+---
+
+## 📂 Navigace repozitáře
+
+- **[`courses/`](courses/)** — přehled kurzů a cvičení
+- **[`projects/`](projects/)** — hotové projekty
+- **[`sandbox/`](sandbox/)** — experimenty
 - **[`notes/`](notes/)** — [workflow](notes/workflow.md), [learnings](notes/learnings.md), [blockers](notes/blockers.md)
-- **[`progress.md`](progress.md)** — aktuální stav
 
-> Každá složka obsahuje vlastní README s popisem.
-
-> Spuštění (How to run) je vždy popsáno u jednotlivých projektů v jejich `README.md`.
+> Každý adresář má vlastní README. Spouštění skriptů je popsáno u jednotlivých projektů.
 
 ---
 
