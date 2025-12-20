@@ -12,8 +12,9 @@ Systematické budování základů v Pythonu na Linuxu.
 
 - **Aktuálně:** Section 3/57 — Match-Case, For Loops
 - **Poslední update:** 2025-12-20
-- **Pokrok:** ~9 % kurzu
-- **Detailní log:** [`progress.md`](progress.md) *(aktualizuji jen při milestones)*
+- **Pokrok kurzu:** █░░░░░░░░░░░░░░░░░░░ 9 %
+
+Detailní log: [`progress.md`](progress.md) *(aktualizuji jen při milestones)*
 
 ---
 
