@@ -1,6 +1,6 @@
 # Python Workshop
 
-Systematické budování základů v Pythonu na Linuxu.
+Systematické budování základů v Pythonu.
 
 - **Osobní studium:** Strukturované učení od prvních principů.
 - **Transparentní záznam:** Čitelná, dohledatelná cesta — vidět *co* a *proč*.
@@ -18,7 +18,7 @@ Detailní log: [`progress.md`](progress.md) *(aktualizuji jen při milestones)*
 
 ---
 
-## 🛠 Metodika (Jak se to dělá)
+## 🛠 Metodika (Jak to dělám)
 
 Tři zásady, nic víc:
 
