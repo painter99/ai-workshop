@@ -2,10 +2,9 @@
 
 Poznámky ke konceptům, dokumentace workflow a learnings.
 
-## Soubory
+## Struktura
 
-- **[`workflow.md`](workflow.md)** — Vývoj nástrojů a metod
-- **[`learnings.md`](learnings.md)** — Klíčové poznatky a breakthrough momenty
-- **[`blockers.md`](blockers.md)** — Výzvy a jak byly vyřešeny
+- **[`workflow.md`](workflow.md)** — Aktuálně používané nástroje a metody
+- **[`learnings`](learnings/)** — Klíčové poznatky a breakthrough momenty
 
 > Soubory obsahují templates a budou doplňovány podle potřeby.
