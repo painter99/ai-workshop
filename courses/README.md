@@ -11,7 +11,7 @@
 
 **Obsah:** Variables → Functions → OOP → Web APIs → Data Processing → LangChain Agents
 
-**Adresář:** [`mega-course/`](mega-course/)
+**Zdroj:** [Udemy](https://www.udemy.com/course/the-python-mega-course/)
 
 ---
 
