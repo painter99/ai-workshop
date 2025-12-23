@@ -10,9 +10,9 @@ Systematické budování základů v Pythonu.
 
 ## 📍 Stav a Orientace
 
-- **Aktuálně:** Section 3/57 — Match-Case, For Loops
-- **Poslední update:** 2025-12-20
-- **Pokrok kurzu:** █░░░░░░░░░░░░░░░░░░░ 9 %
+- **Aktuálně:** Section 4/57 — Manipulate Data (List Indexing, Tuples)
+- **Poslední update:** 2025-12-23
+- **Pokrok kurzu:** ██░░░░░░░░░░░░░░░░░░ 11 %
 
 Detailní log: [`progress.md`](progress.md) *(aktualizuji jen při milestones)*
 
