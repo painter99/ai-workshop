@@ -10,9 +10,9 @@ Systematické budování základů v Pythonu.
 
 ## 📍 Stav a Orientace
 
-- **Aktuálně:** Section 4/57 — Manipulate Data (List Indexing, Tuples)
-- **Poslední update:** 2025-12-23
-- **Pokrok kurzu:** ██░░░░░░░░░░░░░░░░░░ 11 %
+- **Aktuálně:** Section 5/57 — Display and Structure Output (Enumeration, f-strings)
+- **Poslední update:** 2025-12-29
+- **Pokrok kurzu:** ██░░░░░░░░░░░░░░░░░░ 14 %
 
 Detailní log: [`progress.md`](progress.md) *(aktualizuji jen při milestones)*
 
