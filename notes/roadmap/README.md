@@ -38,17 +38,17 @@ Every phase ends with a concrete artifact in a repo:
 
 | Phase | Title | Status |
 |-------|-------|--------|
-| [PHASE 0](./phases/phase-0-setup-workflow-base.md) | SETUP & WORKFLOW BASE | 🔲 |
-| [PHASE 1](./phases/phase-1-python-foundations.md) | PYTHON FOUNDATIONS | 🔲 |
-| [PHASE 1.5](./phases/phase-1-5-engineering-hygiene-minimum.md) | ENGINEERING HYGIENE MINIMUM | 🔲 |
-| [PHASE 2](./phases/phase-2-python-to-ai-engineering-bridge.md) | PYTHON → AI ENGINEERING BRIDGE | 🔲 |
-| [PHASE 3](./phases/phase-3-first-llm-apps-dify-rag-eval.md) | FIRST LLM APPS (DIFY-FIRST) + RAG + EVAL | 🔲 |
-| [PHASE 3.5](./phases/phase-3-5-optional-accelerator.md) | OPTIONAL ACCELERATOR | 🔲 |
-| [PHASE 4](./phases/phase-4-local-first-inference-edge-basics.md) | LOCAL-FIRST INFERENCE / EDGE BASICS | 🔲 |
-| [PHASE 5](./phases/phase-5-fine-tuning-slm-lora-qlora-measurement.md) | FINE-TUNING SLM (LoRA/QLoRA) + MEASUREMENT | 🔲 |
-| [PHASE 6](./phases/phase-6-agents-controlled-mini-multi-agent.md) | AGENTS → CONTROLLED MINI MULTI-AGENT | 🔲 |
-| [OPTIONAL](./phases/optional-towards-ai-full-stack-ai-engineering.md) | Towards AI Full Stack AI Engineering | 🔲 |
-| [END STATE](./phases/end-state-month-12.md) | MONTH 12 DELIVERABLES | 🔲 |
+| [PHASE 0](./phases/phase-0-setup-workflow-base.md) | SETUP & WORKFLOW BASE | ☑️ |
+| [PHASE 1](./phases/phase-1-python-foundations.md) | PYTHON FOUNDATIONS | ⬜ |
+| [PHASE 1.5](./phases/phase-1-5-engineering-hygiene-minimum.md) | ENGINEERING HYGIENE MINIMUM | ⬜ |
+| [PHASE 2](./phases/phase-2-python-to-ai-engineering-bridge.md) | PYTHON → AI ENGINEERING BRIDGE | ⬜ |
+| [PHASE 3](./phases/phase-3-first-llm-apps-dify-rag-eval.md) | FIRST LLM APPS (DIFY-FIRST) + RAG + EVAL | ⬜ |
+| [PHASE 3.5](./phases/phase-3-5-optional-accelerator.md) | OPTIONAL ACCELERATOR | ⬜ |
+| [PHASE 4](./phases/phase-4-local-first-inference-edge-basics.md) | LOCAL-FIRST INFERENCE / EDGE BASICS | ⬜ |
+| [PHASE 5](./phases/phase-5-fine-tuning-slm-lora-qlora-measurement.md) | FINE-TUNING SLM (LoRA/QLoRA) + MEASUREMENT | ⬜ |
+| [PHASE 6](./phases/phase-6-agents-controlled-mini-multi-agent.md) | AGENTS → CONTROLLED MINI MULTI-AGENT | ⬜ |
+| [OPTIONAL](./phases/optional-towards-ai-full-stack-ai-engineering.md) | Towards AI Full Stack AI Engineering | ⬜ |
+| [END STATE](./phases/end-state-month-12.md) | MONTH 12 DELIVERABLES | ⬜ |
 
 ---
 
