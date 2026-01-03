@@ -43,7 +43,7 @@ Tři zásady, nic víc:
 
 ## 📚 Co se učím
 
-**Primární kurz (Phase 1):** [The Python Mega Course](https://www.udemy.com/course/python-mega-course/) (Ardit Sulce) — lineární postup, všechna cvičení.
+**Primární kurz (Phase 1):** [The Python Mega Course](https://www.udemy.com/course/the-python-mega-course/) (Ardit Sulce) — lineární postup, všechna cvičení.
 
 **Kompletní seznam materiálů pro celou cestu:** Viz [`notes/roadmap/README.md`](notes/roadmap/README.md) → MATERIALS
 
