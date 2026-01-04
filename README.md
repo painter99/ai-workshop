@@ -24,8 +24,8 @@ Phase 1 (Python Foundations) → Phase 2 (API Bridge) → Phase 3 (RAG/Dify) →
 
 **Aktuální fáze:** Phase 1 — Python Foundations  
 **Kurz:** Section 5/57 — Display and Structure Output (Enumeration, f-strings)  
-**Poslední update:** 2025-12-29  
-**Pokrok kurzu:** ██░░░░░░░░░░░░░░░░░░ 14 %
+**Poslední update:** 2026-01-04  
+**Pokrok kurzu:** ███░░░░░░░░░░░░░░░░░ 16 %
 
 Detailní log: [`progress.md`](progress.md) *(aktualizuji jen při milestones)*
 
