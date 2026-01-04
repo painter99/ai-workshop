@@ -7,26 +7,42 @@
 
 ## MATERIALS (COMPLETE)
 
-- **CORE Python:** Ardit "Python Mega Course"
-- **Bridge:** Towards AI "Beginner Python for AI Engineering"
-- **RAG & Context:** Packt "RAG-Driven Generative AI", "LLM Engineer's Handbook"
-- **Math & ML:** Packt "Python Machine Learning By Example", "Mathematics of ML"
-- **Practice Hub:** https://github.com/mlabonne/llm-course
-- **Free Resources:**
-  - Microsoft generative-ai-for-beginners
-  - Microsoft rag-time
-  - Microsoft edgeai-for-beginners
-  - Microsoft PhiCookBook
-- **Reference/Encyclopedia:** Harvard "ML Systems" (2.6k pages)
-- **Owned books:** PY4E
+### CORE Python
+- Ardit "Python Mega Course"
+- PY4E (Owned book)
+
+### CORE Bridge & AI Engineering
+- Towards AI "Beginner Python for AI Engineering"
+
+### CORE RAG & Context (Books)
+- Packt "RAG-Driven Generative AI"
+- Packt "LLM Engineer's Handbook"
+
+### CORE RAG & Context (Videos)
+- Packt Video: "Dify – No-Code Chatbots & Workflows"
+- Packt Video: "AI & LLM Engineering Mastery – GenAI/RAG" (optional accel)
+
+### Math & ML Reference
+- Packt "Python Machine Learning By Example"
+- Packt "Mathematics of ML"
+
+### Practice Hub & Free Resources
+- GitHub: https://github.com/mlabonne/llm-course
+- Microsoft: generative-ai-for-beginners
+- Microsoft: rag-time
+- Microsoft: edgeai-for-beginners
+- Microsoft: PhiCookBook
+
+### Reference / Encyclopedia
+- Harvard "ML Systems" (2.6k pages)
 
 ---
 
-## OPERATING RULES (prevents overload)
+## OPERATING RULES (to prevent overload)
 
 1. **1 CORE + 1 REFERENCE + 1 LAB/Repo** per phase.
-2. **OFFLINE MODE:** Když nejsi u PC, studuj teorii (Embeddings, RAG architecture, Context Engineering, Quantization).
-3. **FLEX-TIME:** Cíl je mastering, ne rychlost. 5h/week → depth over speed.
+2. **OFFLINE MODE:** When you are not at your PC, study theory (Embeddings, RAG architecture, Context Engineering, Quantization).
+3. **FLEX-TIME:** The goal is mastery, not speed. 5 hours/week → depth over speed.
 
 ---
 
