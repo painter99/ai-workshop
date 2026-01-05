@@ -5,10 +5,14 @@ Build safe, controlled agent workflows with logs and replay.
 Advanced Context Engineering for agentic memory management.
 
 ## CORE
-- Dify workflows/agent apps (tool use, routing, memory)
+- **Packt: "Context Engineering for Multi-Agent Systems"**
+  - This is your PRIMARY guide for building Context Engines.
+  - Study: Semantic Blueprints, MCP, Memory Models, Safeguards.
+  - Build: One Glass-Box agent example from the book (Chapter 10).
 
 ## REFERENCE
-- LLM Engineer's Handbook (agents, safety, evaluation)
+- LLM Engineer's Handbook (only for cross-checking specific agent patterns)
+- Dify Documentation (for implementation of the architecture)
 
 ## ADVANCED CONTEXT ENGINEERING
 - Agent Memory Management:
