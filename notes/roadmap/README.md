@@ -22,6 +22,9 @@
 - Packt Video: "Dify – No-Code Chatbots & Workflows"
 - Packt Video: "AI & LLM Engineering Mastery – GenAI/RAG" (optional accel)
 
+### Advanced Agents (Context Engineering Mastery)
+- Packt "Context Engineering for Multi-Agent Systems"
+
 ### Math & ML Reference
 - Packt "Python Machine Learning By Example"
 - Packt "Mathematics of ML"
