@@ -20,7 +20,7 @@ Not "learn DevOps". Just enough hygiene so later projects don't collapse.
 2) Git minimum actions:
 - create repo
 - make commits with messages
-- view history (log)
+- view history (log + VS Code Git Graph extension: visualize branches/merges, training 10+ commits)
 
 3) Testing minimum:
 - install pytest
