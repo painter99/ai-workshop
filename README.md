@@ -22,10 +22,10 @@ Phase 1 (Python Foundations) → Phase 2 (API Bridge) → Phase 3 (RAG/Dify) →
 
 ## 📍 Stav a Orientace
 
-**Aktuální fáze:** Phase 1 — Python Foundations  
-**Kurz:** Section 6/57 — Persist Data with Files (Processing Text Files, Reading/Writing)  
-**Poslední update:** 2026-01-06  
-**Pokrok kurzu:** ███░░░░░░░░░░░░░░░░░ 18 %
+- **Aktuální fáze:** Phase 1 — Python Foundations  
+- **Kurz:** Section 7/57 — Optimize and Annotate Your Code (List Comprehensions and Code Comments) 
+- **Poslední update:** 2026-01-11  
+- **Pokrok kurzu:** ████░░░░░░░░░░░░░░░░ 22 % 
 
 Detailní log: [`progress.md`](progress.md) *(aktualizuji jen při milestones)*
 
