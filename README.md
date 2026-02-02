@@ -59,6 +59,6 @@ Tři zásady, nic víc:
 
 ---
 
-**Prostředí:** Kubuntu | VS Code | Python 3.x | Git
+**Prostředí:** Pop!_os | VS Code | Python 3.x | Git
 
 *"Nevystoupáme na úroveň svých očekávání, klesneme na úroveň svého tréninku."*
