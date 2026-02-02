@@ -8,30 +8,32 @@ Systematická cesta k AI Engineering od prvních principů.
 
 ---
 
-## 🗺️ Celková cesta
+## Celková cesta
 
-12měsíční journey rozdělené do 6 fází:
+12-24 měsíční journey rozdělené do 6 fází:
 
 ```
-Phase 1 (Python Foundations) → Phase 2 (API Bridge) → Phase 3 (RAG/Dify) → Phase 4 (Local Inference) → Phase 5 (Fine-Tuning) → Phase 6 (Agents)
+Phase 1 (Python Foundations) → Phase 2 (API Bridge) → Phase 3 (RAG/Dify)
+→ Phase 4 (Local Inference) → Phase 5 (Fine-Tuning) → Phase 6 (Agents)
 ```
 
-**Kompletní roadmap:** [`notes/roadmap/README.md`](notes/roadmap/README.md)
+Kompletní roadmap: [`notes/roadmap/README.md`](notes/roadmap/README.md)
 
 ---
 
-## 📍 Stav a Orientace
+## Stav a orientace
 
-- **Aktuální fáze:** Phase 1 — Python Foundations  
-- **Kurz:** Section 9/57 — Decision Making in Apps (If, Elif, Else, Dictionaries) 
+- **Aktuální fáze:** Phase 1 — Python Foundations
+- **Kurz:** The Python Mega Course — Section 9/57 (Decision Making)
 - **Poslední update:** 2026-01-23
-- **Pokrok kurzu:** █████░░░░░░░░░░░░░░░ 27 % 
+- **Pokrok kurzu:** █████░░░░░░░░░░░░░░░ 27 %
 
-Detailní log: [`progress.md`](progress.md) *(aktualizuji jen při milestones)*
+Detailní log: [`progress.md`](progress.md) *(aktualizuji jen při milestones)*  
+Resume here: [`courses/python-mega-course/app.py`](courses/python-mega-course/app.py)
 
 ---
 
-## 🛠 Metodika (Jak to dělám)
+## Metodika (jak to dělám)
 
 Tři zásady, nic víc:
 
@@ -41,24 +43,28 @@ Tři zásady, nic víc:
 
 ---
 
-## 📚 Co se učím
+## Co se učím
 
-**Primární kurz (Phase 1):** [The Python Mega Course](https://www.udemy.com/course/the-python-mega-course/) (Ardit Sulce) — lineární postup, všechna cvičení.
+**Primární kurz (Phase 1):**  
+[The Python Mega Course](https://www.udemy.com/course/the-python-mega-course/) (Ardit Sulce) — lineární postup, všechna cvičení.
 
-**Kompletní seznam materiálů pro celou cestu:** Viz [`notes/roadmap/README.md`](notes/roadmap/README.md) → MATERIALS
+Kompletní seznam materiálů pro celou cestu: viz
+[`notes/roadmap/README.md`](notes/roadmap/README.md) → MATERIALS
 
 ---
 
-## 📂 Navigace repozitáře
+## Navigace repozitáře
 
+- **[`courses/`](courses/)** — kurzy a studijní materiály
+  - **[`courses/python-mega-course/`](courses/python-mega-course/)** — kód + poznámky ke kurzu
 - **[`projects/`](projects/)** — hotové projekty (od Phase 2 výše)
-- **[`sandbox/`](sandbox/)** — experimenty a cvičení (Phase 1+)
-- **[`notes/`](notes/)** — [roadmap](notes/roadmap/), [workflow](notes/workflow.md), [learnings](notes/learnings/)
+- **[`notes/`](notes/)** — [roadmap](notes/roadmap/), [workflow](notes/workflow.md), [learnings](notes/learnings/)(session logy)
+- **[`sandbox/`](sandbox/)** — rychlé experimenty / scratchpad (mimo hlavní kurzový kód)
 
-> Každý adresář má vlastní README. Spouštění skriptů je popsáno u jednotlivých projektů.
+> Každý adresář má vlastní README. Spouštění skriptů je popsáno u jednotlivých projektů/kurzů.
 
 ---
 
-**Prostředí:** Pop!_os | VS Code | Python 3.x | Git
+Prostředí: Pop!_os | VS Code | Python 3.x | Git
 
 *"Nevystoupáme na úroveň svých očekávání, klesneme na úroveň svého tréninku."*
