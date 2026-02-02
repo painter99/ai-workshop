@@ -1,0 +1,47 @@
+# --- Python: virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Python: bytecode / caches ---
+__pycache__/
+*.py[cod]
+
+# --- Python: tooling caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# --- Coverage reports ---
+.coverage
+coverage.xml
+htmlcov/
+
+# --- Build / packaging artifacts ---
+build/
+dist/
+*.egg-info/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- VS Code ---
+.vscode/
+
+# --- Logs / temp files ---
+*.log
+*.tmp
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs ---
+.idea/
+*.swp
+*.swo
+
+# --- Secrets / env vars ---
+.env
