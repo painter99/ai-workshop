@@ -3,7 +3,7 @@
 Systematická cesta k AI Engineering od prvních principů.
 
 - **Osobní studium:** Strukturované učení od prvních principů.
-- **Transparentní záznam:** Čitelná, dohledatelná cesta — vidět *co* a *proč*.
+- **Transparentní záznam:** Čitelná, dohledatelná cesta — vidět _co_ a _proč_.
 - **Cíl:** Pevné základy pro AI Engineering: Python → RAG → Dify → Local Inference → Fine-Tuning → Agents.
 
 ---
@@ -12,7 +12,7 @@ Systematická cesta k AI Engineering od prvních principů.
 
 12-24 měsíční journey rozdělené do 6 fází:
 
-```
+```text
 Phase 1 (Python Foundations) → Phase 2 (API Bridge) → Phase 3 (RAG/Dify)
 → Phase 4 (Local Inference) → Phase 5 (Fine-Tuning) → Phase 6 (Agents)
 ```
@@ -28,7 +28,7 @@ Kompletní roadmap: [`notes/roadmap/README.md`](notes/roadmap/README.md)
 - **Poslední update:** 2026-01-23
 - **Pokrok kurzu:** █████░░░░░░░░░░░░░░░ 27 %
 
-Detailní log: [`progress.md`](progress.md) *(aktualizuji jen při milestones)* 
+Detailní log: [`progress.md`](progress.md) _(aktualizuji jen při milestones)_
 
 ---
 
@@ -64,6 +64,6 @@ Kompletní seznam materiálů pro celou cestu: viz
 
 ---
 
-Prostředí: Pop!_os | VS Code | Python 3.x | Git
+Prostředí: Pop!\_os | VS Code | Python 3.x | Git
 
-*"Nevystoupáme na úroveň svých očekávání, klesneme na úroveň svého tréninku."*
+> "Nevystoupáme na úroveň svých očekávání, klesneme na úroveň svého tréninku."
