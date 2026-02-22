@@ -28,8 +28,7 @@ Kompletní roadmap: [`notes/roadmap/README.md`](notes/roadmap/README.md)
 - **Poslední update:** 2026-01-23
 - **Pokrok kurzu:** █████░░░░░░░░░░░░░░░ 27 %
 
-Detailní log: [`progress.md`](progress.md) *(aktualizuji jen při milestones)*  
-Resume here: [`courses/python-mega-course/app.py`](courses/python-mega-course/app.py)
+Detailní log: [`progress.md`](progress.md) *(aktualizuji jen při milestones)* 
 
 ---
 
