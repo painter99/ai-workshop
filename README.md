@@ -57,7 +57,7 @@ Kompletní seznam materiálů pro celou cestu: viz
 - **[`courses/`](courses/)** — kurzy a studijní materiály
   - **[`courses/python-mega-course/`](courses/python-mega-course/)** — kód + poznámky ke kurzu
 - **[`projects/`](projects/)** — hotové projekty (od Phase 2 výše)
-- **[`notes/`](notes/)** — [roadmap](notes/roadmap/), [workflow](notes/workflow.md), [brain.md](https://github.com/painter99/pavel-brain/blob/main/brain.md) (Exocortex)
+- **[`notes/`](notes/)** — [roadmap](notes/roadmap/), [workflow](notes/workflow.md)
 - **[`sandbox/`](sandbox/)** — rychlé experimenty / scratchpad (mimo hlavní kurzový kód)
 
 > Každý adresář má vlastní README. Spouštění skriptů je popsáno u jednotlivých projektů/kurzů.
