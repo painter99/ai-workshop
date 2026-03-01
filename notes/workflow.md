@@ -1,12 +1,3 @@
-
-
-
-Tady je tvůj kompletně přepracovaný dokument `workflow.md`. 
-
-Odráží tvůj obrovský technologický a myšlenkový posun z "běžného používání AI chatbotů" na **pokročilé agentické programování**. Text je strukturovaný tak, aby jasně definoval tvé nové, vysoce profesionální návyky.
-
-***
-
 # Workflow a Metodika
 
 Tento dokument definuje mé pracovní a studijní postupy. Od počátečního přístupu "člověk a chatbot" jsem přešel na komplexní **agentické vývojové prostředí**, kde AI nefunguje jako generátor, ale jako striktní Sokratovský mentor s přístupem do mého systému.
