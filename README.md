@@ -24,9 +24,9 @@ Kompletní roadmap: [`notes/roadmap/README.md`](notes/roadmap/README.md)
 ## Stav a orientace
 
 - **Aktuální fáze:** Phase 1 — Python Foundations
-- **Kurz:** The Python Mega Course — Section 9/57 (Decision Making)
-- **Poslední update:** 2026-01-23
-- **Pokrok kurzu:** █████░░░░░░░░░░░░░░░ 27 %
+- **Kurz:** The Python Mega Course — Section 9/57 (Functions & Modules)
+- **Poslední update:** 2026-03-01
+- **Pokrok kurzu:** ██████░░░░░░░░░░░░░░ 30 %
 
 Detailní log: [`progress.md`](progress.md) _(aktualizuji jen při milestones)_
 
@@ -57,7 +57,7 @@ Kompletní seznam materiálů pro celou cestu: viz
 - **[`courses/`](courses/)** — kurzy a studijní materiály
   - **[`courses/python-mega-course/`](courses/python-mega-course/)** — kód + poznámky ke kurzu
 - **[`projects/`](projects/)** — hotové projekty (od Phase 2 výše)
-- **[`notes/`](notes/)** — [roadmap](notes/roadmap/), [workflow](notes/workflow.md), [learnings](notes/learnings/)(session logy)
+- **[`notes/`](notes/)** — [roadmap](notes/roadmap/), [workflow](notes/workflow.md), [brain.md](https://github.com/painter99/pavel-brain/blob/main/brain.md) (Exocortex)
 - **[`sandbox/`](sandbox/)** — rychlé experimenty / scratchpad (mimo hlavní kurzový kód)
 
 > Každý adresář má vlastní README. Spouštění skriptů je popsáno u jednotlivých projektů/kurzů.
