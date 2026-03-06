@@ -17,7 +17,7 @@ Phase 1 (Python Foundations) → Phase 2 (API Bridge) → Phase 3 (RAG/Dify)
 → Phase 4 (Local Inference) → Phase 5 (Fine-Tuning) → Phase 6 (Agents)
 ```
 
-Kompletní roadmap: [`notes/roadmap/README.md`](notes/roadmap/README.md)
+Kompletní roadmap: [`docs/roadmap/README.md`](docs/roadmap/README.md)
 
 ---
 
@@ -25,10 +25,10 @@ Kompletní roadmap: [`notes/roadmap/README.md`](notes/roadmap/README.md)
 
 - **Aktuální fáze:** Phase 1 — Python Foundations
 - **Kurz:** The Python Mega Course — Section 9/57 (Functions & Modules)
-- **Poslední update:** 2026-03-01
+- **Poslední update:** 2026-03-06
 - **Pokrok kurzu:** ██████░░░░░░░░░░░░░░ 30 %
 
-Detailní log: [`progress.md`](progress.md) _(aktualizuji jen při milestones)_
+Detailní logování přesunuto do Exocortexu (vektorové paměti) a `docs/roadmap/`.
 
 ---
 
@@ -48,17 +48,16 @@ Tři zásady, nic víc:
 [The Python Mega Course](https://www.udemy.com/course/the-python-mega-course/) (Ardit Sulce) — lineární postup, všechna cvičení.
 
 Kompletní seznam materiálů pro celou cestu: viz
-[`notes/roadmap/README.md`](notes/roadmap/README.md) → MATERIALS
+[`docs/roadmap/README.md`](docs/roadmap/README.md) → MATERIALS
 
 ---
 
 ## Navigace repozitáře
 
-- **[`courses/`](courses/)** — kurzy a studijní materiály
-  - **[`courses/python-mega-course/`](courses/python-mega-course/)** — kód + poznámky ke kurzu
-- **[`projects/`](projects/)** — hotové projekty (od Phase 2 výše)
-- **[`notes/`](notes/)** — [roadmap](notes/roadmap/), [workflow](notes/workflow.md)
-- **[`sandbox/`](sandbox/)** — rychlé experimenty / scratchpad (mimo hlavní kurzový kód)
+- **[`courses/`](courses/)** — kurzy a studijní materiály (např. strukturovaný kód z kurzů)
+- **[`projects/`](projects/)** — čisté, nezávislé aplikace (od Phase 2 výše)
+- **[`docs/`](docs/)** — [roadmap](docs/roadmap/) a plány k úkolům
+- **[`sandbox/`](sandbox/)** — izolované experimenty a scratchpad (každý experiment má vlastní složku)
 
 > Každý adresář má vlastní README. Spouštění skriptů je popsáno u jednotlivých projektů/kurzů.
 
