@@ -28,7 +28,7 @@ Kompletní roadmap: [`docs/roadmap/README.md`](docs/roadmap/README.md)
 - **Poslední update:** 2026-03-06
 - **Pokrok kurzu:** ██████░░░░░░░░░░░░░░ 30 %
 
-Detailní logování přesunuto do Exocortexu (vektorové paměti) a `docs/roadmap/`.
+Detailní logování přesunuto do Exocortexu (lokální vektorové paměti) a `docs/roadmap/`.
 
 ---
 
@@ -39,6 +39,8 @@ Tři zásady, nic víc:
 1. **First Principles** — pochopit logiku před knihovnami.
 2. **Defensive Programming** — validovat vstupy, kontrolovat edge cases.
 3. **Traceability** — umět vysvětlit a dohledat všechny části kódu.
+
+*(Kompletní Sokratovskou metodiku a konfiguraci agentického prostředí sdílím v repozitáři [windsurf-prejunior-config](https://github.com/painter99/windsurf-prejunior-config))*
 
 ---
 
@@ -57,12 +59,12 @@ Kompletní seznam materiálů pro celou cestu: viz
 - **[`courses/`](courses/)** — kurzy a studijní materiály (např. strukturovaný kód z kurzů)
 - **[`projects/`](projects/)** — čisté, nezávislé aplikace (od Phase 2 výše)
 - **[`docs/`](docs/)** — [roadmap](docs/roadmap/) a plány k úkolům
-- **[`sandbox/`](sandbox/)** — izolované experimenty a scratchpad (každý experiment má vlastní složku)
+- **[`sandbox/`](sandbox/)** — izolované experimenty a scratchpad (každý experiment má vlastní adresář)
 
 > Každý adresář má vlastní README. Spouštění skriptů je popsáno u jednotlivých projektů/kurzů.
 
 ---
 
-Prostředí: Pop!\_os | VS Code | Python 3.x | Git
+Prostředí: Pop!\_os | Windsurf | Python 3.x | Git
 
 > "Nevystoupáme na úroveň svých očekávání, klesneme na úroveň svého tréninku."
