@@ -2,34 +2,54 @@
 
 > **A structured technical learning repository focused on Python foundations, disciplined experimentation, and practical bridges toward technical IT, automation, and industrial problem-solving.**
 
-## Core Purpose
+## Purpose
 
-Tento repozitář se posunul z původní široké "AI Engineering" roadmapy a nyní funguje jako **technická laboratoř pro kariérní přechod**. Slouží jako praktická, dohledatelná studijní základna propojující mých 10+ let praxe z průmyslové výroby (elektro základ, lakovny, řízení kvality) s technickým IT, QA a automatizací.
+This repository is a structured, practical learning space for building technical foundations through Python, small experiments, and reusable notes.
 
-Hlavní pravidla tohoto repozitáře:
-1. **Python Foundations First:** Zaměření na čistou syntaxi, čtení existujícího kódu, debugging a ošetřování chyb (defensive programming) namísto hype buzzwordů.
-2. **Pragmatismus:** Kvalita pochopení a systematický přístup mají přednost před množstvím probraného materiálu.
-3. **Průmyslová relevance:** Technické experimenty dlouhodobě směřují k praktické aplikaci ve výrobě, testovacích scénářích nebo průmyslové automatizaci.
+It is intentionally focused on:
+- Python fundamentals
+- clear and disciplined experimentation
+- practical problem-solving
+- gradual exploration of topics related to automation, software, data, and technical tooling
 
-## Active Pillars
+## Working Principles
 
-### Pillar A: Python Foundations
-- **Kde:** `courses/python-mega-course/`
-- **O co jde:** Aktivní studium. Budování bazální jistoty u psaní kódu, práce s moduly, zpracování výjimek a práce se strukturami dat.
+1. **Python Foundations First**
+   Build confidence in syntax, code reading, debugging, functions, modules, files, and basic program structure.
 
-### Pillar B: Practical Tools
-- **Kde:** `practical_tools/`
-- **O co jde:** Pískoviště pro malé, praktické skripty potvrzující schopnost vyřešit reálný problém čistým a bezpečným způsobem.
+2. **Disciplined Experimentation**
+   Prefer small understandable steps over broad, vague exploration.
 
-### Pillar C: Industrial & Automation Bridge
-- **Kde:** `industry_automation/`
-- **O co jde:** Moleskine a test bed pro znalosti tvořící most mezi světem IT a průmyslem (PLC koncepty, zpracování dat, průmyslové testování).
+3. **Practical Relevance**
+   Keep the work grounded in useful technical patterns, clean thinking, and transferable skills.
 
-## Legacy Materials
+4. **Traceability**
+   Keep progress visible enough to understand what was studied, tried, and learned.
 
-Původní roadmapa 2025-2026, která cílila přímo na full-stack AI Engineering (RAG, Dify, Fine-tuning, Agents) a rozsáhlé použití LLMs, byla úmyslně pozastavena. Je uložena a zachována ve složce `docs/legacy_roadmap_2025/` jako historický záznam mého studijního vývoje.
+## Repository Structure
 
-## Autor & Kontakt
-- **Autor:** Pavel Mareš
-- **Cílové role pro 2026:** Technical IT / PLC & Automation Junior / Industrial QA
-- **GitHub:** [painter99](https://github.com/painter99)
+### `courses/python-mega-course/`
+Primary active study track for strengthening Python fundamentals.
+
+### `practical_tools/`
+Small utilities, scripts, and exercises aimed at concrete technical problems.
+
+### `industry_automation/`
+Notes, ideas, and early technical explorations related to automation, industrial contexts, and applied problem-solving.
+
+### `projects/`
+Longer or more self-contained technical experiments.
+
+### `sandbox/`
+Isolated testing space for rough experiments and disposable code.
+
+### `docs/legacy_roadmap_2025/`
+Archived planning materials kept for historical traceability.
+
+## Current Focus
+
+The current active focus is strengthening Python foundations and maintaining a clean, sustainable technical learning workflow.
+
+## Notes
+
+This repository is a living learning workspace. Its structure may evolve over time as priorities become clearer and more practical.
