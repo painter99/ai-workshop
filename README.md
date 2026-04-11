@@ -1,70 +1,35 @@
-# AI Workshop
+# Technical Learning Lab
 
-Systematická cesta k AI Engineering od prvních principů.
+> **A structured technical learning repository focused on Python foundations, disciplined experimentation, and practical bridges toward technical IT, automation, and industrial problem-solving.**
 
-- **Osobní studium:** Strukturované učení od prvních principů.
-- **Transparentní záznam:** Čitelná, dohledatelná cesta — vidět _co_ a _proč_.
-- **Cíl:** Pevné základy pro AI Engineering: Python → RAG → Dify → Local Inference → Fine-Tuning → Agents.
+## Core Purpose
 
----
+Tento repozitář se posunul z původní široké "AI Engineering" roadmapy a nyní funguje jako **technická laboratoř pro kariérní přechod**. Slouží jako praktická, dohledatelná studijní základna propojující mých 10+ let praxe z průmyslové výroby (elektro základ, lakovny, řízení kvality) s technickým IT, QA a automatizací.
 
-## Celková cesta
+Hlavní pravidla tohoto repozitáře:
+1. **Python Foundations First:** Zaměření na čistou syntaxi, čtení existujícího kódu, debugging a ošetřování chyb (defensive programming) namísto hype buzzwordů.
+2. **Pragmatismus:** Kvalita pochopení a systematický přístup mají přednost před množstvím probraného materiálu.
+3. **Průmyslová relevance:** Technické experimenty dlouhodobě směřují k praktické aplikaci ve výrobě, testovacích scénářích nebo průmyslové automatizaci.
 
-12-24 měsíční journey rozdělené do 6 fází:
+## Active Pillars
 
-```text
-Phase 1 (Python Foundations) → Phase 2 (API Bridge) → Phase 3 (RAG/Dify)
-→ Phase 4 (Local Inference) → Phase 5 (Fine-Tuning) → Phase 6 (Agents)
-```
+### Pillar A: Python Foundations
+- **Kde:** `courses/python-mega-course/`
+- **O co jde:** Aktivní studium. Budování bazální jistoty u psaní kódu, práce s moduly, zpracování výjimek a práce se strukturami dat.
 
-Kompletní roadmap: [`docs/roadmap/README.md`](docs/roadmap/README.md)
+### Pillar B: Practical Tools
+- **Kde:** `practical_tools/`
+- **O co jde:** Pískoviště pro malé, praktické skripty potvrzující schopnost vyřešit reálný problém čistým a bezpečným způsobem.
 
----
+### Pillar C: Industrial & Automation Bridge
+- **Kde:** `industry_automation/`
+- **O co jde:** Moleskine a test bed pro znalosti tvořící most mezi světem IT a průmyslem (PLC koncepty, zpracování dat, průmyslové testování).
 
-## Stav a orientace
+## Legacy Materials
 
-- **Aktuální fáze:** Phase 1 — Python Foundations
-- **Kurz:** The Python Mega Course — Section 9/57 (Functions & Modules)
-- **Poslední update:** 2026-03-06
-- **Pokrok kurzu:** ██████░░░░░░░░░░░░░░ 30 %
+Původní roadmapa 2025-2026, která cílila přímo na full-stack AI Engineering (RAG, Dify, Fine-tuning, Agents) a rozsáhlé použití LLMs, byla úmyslně pozastavena. Je uložena a zachována ve složce `docs/legacy_roadmap_2025/` jako historický záznam mého studijního vývoje.
 
-Detailní logování přesunuto do Exocortexu (lokální vektorové paměti) a `docs/roadmap/`.
-
----
-
-## Metodika (jak to dělám)
-
-Tři zásady, nic víc:
-
-1. **First Principles** — pochopit logiku před knihovnami.
-2. **Defensive Programming** — validovat vstupy, kontrolovat edge cases.
-3. **Traceability** — umět vysvětlit a dohledat všechny části kódu.
-
-*(Kompletní Sokratovskou metodiku a konfiguraci agentického prostředí sdílím v repozitáři [windsurf-prejunior-config](https://github.com/painter99/windsurf-prejunior-config))*
-
----
-
-## Co se učím
-
-**Primární kurz (Phase 1):**  
-[The Python Mega Course](https://www.udemy.com/course/the-python-mega-course/) (Ardit Sulce) — lineární postup, všechna cvičení.
-
-Kompletní seznam materiálů pro celou cestu: viz
-[`docs/roadmap/README.md`](docs/roadmap/README.md) → MATERIALS
-
----
-
-## Navigace repozitáře
-
-- **[`courses/`](courses/)** — kurzy a studijní materiály (např. strukturovaný kód z kurzů)
-- **[`projects/`](projects/)** — čisté, nezávislé aplikace (od Phase 2 výše)
-- **[`docs/`](docs/)** — [roadmap](docs/roadmap/) a plány k úkolům
-- **[`sandbox/`](sandbox/)** — izolované experimenty a scratchpad (každý experiment má vlastní adresář)
-
-> Každý adresář má vlastní README. Spouštění skriptů je popsáno u jednotlivých projektů/kurzů.
-
----
-
-Prostředí: Pop!\_os | Windsurf | Python 3.x | Git
-
-> "Nevystoupáme na úroveň svých očekávání, klesneme na úroveň svého tréninku."
+## Autor & Kontakt
+- **Autor:** Pavel Mareš
+- **Cílové role pro 2026:** Technical IT / PLC & Automation Junior / Industrial QA
+- **GitHub:** [painter99](https://github.com/painter99)
