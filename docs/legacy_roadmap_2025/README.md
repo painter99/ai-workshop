@@ -78,7 +78,7 @@ Formal status vs. real-world practice often diverge — this section captures bo
 | 0 | ✅ Complete | Linux, Python, venv, Git all working |
 | 1 | 🔄 In Progress | Core syntax solid; Python Mega Course ongoing; projects already in play |
 | 1.5 | 🔄 In Progress | Git/GitHub ✅, structured repos ✅; pytest and systematic logging still pending |
-| 2 | 🟡 Partial | Not formally completed, but AXONEX project already does exactly what Gate 2 requires: Ollama API → JSON parse → file output → error handling |
+| 2 | 🟡 Partial | `brainstorm.py` runs locally; `practical_tools/ollama_prompt_chaining_manual.md` contains full multi-model Python script with API calls, streaming, error handling, few-shot prompting — covers Gate 2 core requirements |
 | 3 | ⬜ Not started | Dify untouched; RAG pipeline not yet built formally |
 | 4 | 🟡 Partial | Ollama running locally ✅; basic prompt chaining working; formal benchmark not documented |
 | 5–6 | ⬜ Not started | Fine-tuning and agents not yet started |
