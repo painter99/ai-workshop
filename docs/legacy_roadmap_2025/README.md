@@ -67,43 +67,28 @@ Every phase ends with a concrete artifact in a repo:
 
 ---
 
-## WHERE I AM NOW
+## Phase Status
 
-**Last assessed:** 2026-04-25
+**Last assessed:** 2026-04-25  
+**Active project:** [AXONEX](https://github.com/painter99/ai-workshop/tree/main/projects/axonex) — local multi-model Python pipeline
 
-Formal status vs. real-world practice often diverge — this section captures both.
+> **Legend:** ✅ Complete · 🔄 In Progress · 🟡 Partial (practice ahead of formal) · ⬜ Not started
+>
+> 🟡 = Phase requirements covered in practice, but formal deliverables not yet written up.
 
-| Phase | Formal Status | Real-World Practice |
-|-------|--------------|---------------------|
-| 0 | ✅ Complete | Linux, Python, venv, Git all working |
-| 1 | 🔄 In Progress | Core syntax solid; Python Mega Course ongoing; projects already in play |
-| 1.5 | 🔄 In Progress | Git/GitHub ✅, structured repos ✅; pytest and systematic logging still pending |
-| 2 | 🟡 Partial | `brainstorm.py` runs locally; `practical_tools/ollama_prompt_chaining_manual.md` contains full multi-model Python script with API calls, streaming, error handling, few-shot prompting — covers Gate 2 core requirements |
-| 3 | ⬜ Not started | Dify untouched; RAG pipeline not yet built formally |
-| 4 | 🟡 Partial | Ollama running locally ✅; basic prompt chaining working; formal benchmark not documented |
-| 5–6 | ⬜ Not started | Fine-tuning and agents not yet started |
-
-> **Note on 🟡 Partial:** Phase requirements are met in practice through project work, but formal deliverables (README, eval, logged benchmark) are not yet written up.
-
-**Active project:** [AXONEX](../projects/axonex/) — local multi-model Python pipeline, covers Phase 2 and early Phase 4 territory.
-
----
-
-## Phase Navigation & Status
-
-| Phase                                                                 | Title                                      | Status |
-| --------------------------------------------------------------------- | ------------------------------------------ | ------ |
-| [PHASE 0](./phases/phase-0-setup-workflow-base.md)                    | SETUP & WORKFLOW BASE                      | ☑️     |
-| [PHASE 1](./phases/phase-1-python-foundations.md)                     | PYTHON FOUNDATIONS + THEORY BASE           | 🔄     |
-| [PHASE 1.5](./phases/phase-1-5-engineering-hygiene-minimum.md)        | ENGINEERING HYGIENE MINIMUM                | 🔄     |
-| [PHASE 2](./phases/phase-2-python-to-ai-engineering-bridge.md)        | PYTHON → AI ENGINEERING BRIDGE             | ⬜     |
-| [PHASE 3](./phases/phase-3-first-llm-apps-dify-rag-eval.md)           | FIRST LLM APPS + RAG + EVAL                | ⬜     |
-| [PHASE 3.5](./phases/phase-3-5-optional-accelerator.md)               | OPTIONAL ACCELERATOR                       | ⬜     |
-| [PHASE 4](./phases/phase-4-local-first-inference-edge-basics.md)      | LOCAL-FIRST INFERENCE / EDGE BASICS        | ⬜     |
-| [PHASE 5](./phases/phase-5-fine-tuning-slm-lora-qlora-measurement.md) | FINE-TUNING SLM (CLOUD-TO-LOCAL)           | ⬜     |
-| [PHASE 6](./phases/phase-6-agents-controlled-mini-multi-agent.md)     | AGENTS + ADVANCED CONTEXT & MEMORY         | ⬜     |
-| [OPTIONAL](./phases/optional-towards-ai-full-stack-ai-engineering.md) | Towards AI Full Stack AI Engineering       | ⬜     |
-| [END STATE](./phases/end-state-month-12.md)                           | MONTH 12/24 DELIVERABLES                   | ⬜     |
+| Phase | Title | Status | Notes |
+|-------|-------|--------|-------|
+| [0](./phases/phase-0-setup-workflow-base.md) | SETUP & WORKFLOW BASE | ✅ | Linux, Python, venv, Git all working |
+| [1](./phases/phase-1-python-foundations.md) | PYTHON FOUNDATIONS | 🔄 | Core syntax solid; Python Mega Course ongoing |
+| [1.5](./phases/phase-1-5-engineering-hygiene-minimum.md) | ENGINEERING HYGIENE MINIMUM | 🔄 | Git ✅, repos ✅; pytest and logging pending |
+| [2](./phases/phase-2-python-to-ai-engineering-bridge.md) | PYTHON → AI ENGINEERING BRIDGE | 🟡 | `brainstorm.py` covers Gate 2 core — Ollama API, streaming, error handling, few-shot prompting |
+| [3](./phases/phase-3-first-llm-apps-dify-rag-eval.md) | FIRST LLM APPS + RAG + EVAL | ⬜ | RAG pipeline not yet built |
+| [3.5](./phases/phase-3-5-optional-accelerator.md) | OPTIONAL ACCELERATOR | ⬜ | — |
+| [4](./phases/phase-4-local-first-inference-edge-basics.md) | LOCAL-FIRST INFERENCE / EDGE BASICS | 🟡 | Ollama running locally ✅; formal benchmark not documented |
+| [5](./phases/phase-5-fine-tuning-slm-lora-qlora-measurement.md) | FINE-TUNING SLM (CLOUD-TO-LOCAL) | ⬜ | — |
+| [6](./phases/phase-6-agents-controlled-mini-multi-agent.md) | AGENTS + ADVANCED CONTEXT & MEMORY | ⬜ | — |
+| [OPT](./phases/optional-towards-ai-full-stack-ai-engineering.md) | Towards AI Full Stack AI Engineering | ⬜ | After Gate 3B or 4 only |
+| [END](./phases/end-state-month-12.md) | MONTH 12/24 DELIVERABLES | ⬜ | — |
 
 ---
 
