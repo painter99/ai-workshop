@@ -67,6 +67,28 @@ Every phase ends with a concrete artifact in a repo:
 
 ---
 
+## WHERE I AM NOW
+
+**Last assessed:** 2026-04-25
+
+Formal status vs. real-world practice often diverge — this section captures both.
+
+| Phase | Formal Status | Real-World Practice |
+|-------|--------------|---------------------|
+| 0 | ✅ Complete | Linux, Python, venv, Git all working |
+| 1 | 🔄 In Progress | Core syntax solid; Python Mega Course ongoing; projects already in play |
+| 1.5 | 🔄 In Progress | Git/GitHub ✅, structured repos ✅; pytest and systematic logging still pending |
+| 2 | 🟡 Partial | Not formally completed, but AXONEX project already does exactly what Gate 2 requires: Ollama API → JSON parse → file output → error handling |
+| 3 | ⬜ Not started | Dify untouched; RAG pipeline not yet built formally |
+| 4 | 🟡 Partial | Ollama running locally ✅; basic prompt chaining working; formal benchmark not documented |
+| 5–6 | ⬜ Not started | Fine-tuning and agents not yet started |
+
+> **Note on 🟡 Partial:** Phase requirements are met in practice through project work, but formal deliverables (README, eval, logged benchmark) are not yet written up.
+
+**Active project:** [AXONEX](../projects/axonex/) — local multi-model Python pipeline, covers Phase 2 and early Phase 4 territory.
+
+---
+
 ## Phase Navigation & Status
 
 | Phase                                                                 | Title                                      | Status |
@@ -85,4 +107,4 @@ Every phase ends with a concrete artifact in a repo:
 
 ---
 
-**Last Updated:** February 22, 2026
+**Last Updated:** 2026-04-25
