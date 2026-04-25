@@ -29,4 +29,8 @@ CLAUDE.md
 .claude/
 docs/plan.md
 .env
+# AXONEX — interní a soukromé dokumenty (konzultace, session notes)
+projects/axonex/docs/review_konzultace_*.md
+projects/axonex/SESSION_SUMMARY_*.md
+projects/axonex/NOTES_*.md
 .gitnexus
