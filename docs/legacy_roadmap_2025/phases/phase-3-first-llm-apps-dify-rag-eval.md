@@ -1,39 +1,63 @@
-# PHASE 3 — FIRST LLM APPS (DIFY-FIRST) + RAG + EVAL (Months 5–6)
+# PHASE 3 — FIRST LLM APPS + RAG + EVAL (Months 5–6)
 
 ## Goal
-Build your first portfolio-grade RAG application in Dify and prove improvement.
+Build your first portfolio-grade local RAG pipeline and prove quality improvement through eval.
 Introduction to Context Engineering.
 
-## CORE
-- Packt video: "Dify – Create No-Code Chatbots and AI Workflows"
+## PATH CHOICE (pick ONE primary path)
 
-## REFERENCE
-- Packt ebook: "RAG-Driven Generative AI"
+### Path A — Python-first (RECOMMENDED)
+Build your own lightweight Python orchestrator: load docs → chunk → embed → retrieve → generate.
+You understand every line of code. Harder, slower to start, deeper understanding.
 
-## LAB/Repo (choose ONE at a time)
-- microsoft/generative-ai-for-beginners (selected RAG + security lessons)
-- microsoft/rag-time (journey 1–2) in the iteration phase
+**CORE (Path A):**
+- Packt ebook: "RAG-Driven Generative AI" (primary build guide)
 
-## IMPORTANT TECH TARGET
-- Dify should run self-hosted locally by the end of Phase 3A or 3B.
-- Model can be temporary (even weaker), but local run must exist.
-
-## CONTEXT ENGINEERING FOCUS (New)
-- Chunking strategies: Fix-size vs Semantic chunking.
-- Reranking: Learn why the top-k results need a second look.
+**REFERENCE (Path A):**
+- LLM Engineer's Handbook (API mindset, retrieval patterns)
+- microsoft/generative-ai-for-beginners (selected RAG lessons)
+- microsoft/rag-time (journey 1–2 for iteration ideas)
 
 ---
 
-## PHASE 3A — DIFY RAG MVP (Weeks 1–3)
+### Path B — No-code orchestrator (OPTIONAL)
+Use Dify, Flowise, or Langflow as a fast prototyping shell.
+Faster to first result, less code understanding, useful for validating ideas or working in teams that use these tools.
+
+**CORE (Path B):**
+- Packt video: "Dify – Create No-Code Chatbots and AI Workflows" (owned)
+
+**REFERENCE (Path B):**
+- Packt ebook: "RAG-Driven Generative AI" (for understanding what Dify does under the hood)
+
+> **Note on no-code tools:** Dify/Flowise/Langflow are essentially backend glue + FE-BE bridging layers.
+> They connect LLM APIs, vector stores, and UI without you writing that plumbing.
+> Useful for prototyping. Limited for non-standard requirements.
+
+---
+
+## IMPORTANT TECH TARGET
+- Local model must serve your pipeline by end of Phase 3A (Ollama or equivalent).
+- Model can be weak, but local run must be stable.
+- Path A: your Python script calls Ollama directly.
+- Path B: Dify/Flowise self-hosted locally, connected to Ollama.
+
+## CONTEXT ENGINEERING FOCUS
+- Chunking strategies: Fixed-size vs Semantic chunking.
+- Reranking: Learn why top-k results need a second pass.
+
+---
+
+## PHASE 3A — RAG MVP (Weeks 1–3)
 
 ## What you DO (MVP spec)
 - Pick a knowledge domain you can legally use (your own notes, public docs).
-- Create a Dify app with:
-  - system instructions
-  - knowledge base connected (RAG)
-  - basic safety behavior ("abstain" when KB lacks info)
+- Build an app/pipeline that:
+  - loads a knowledge base (documents)
+  - answers questions using retrieval (RAG)
+  - has basic safety behavior: "abstain" when KB lacks info
 - Create eval set:
-  - file: eval/eval_set.jsonl (or csv)
+  - file: `eval/eval_set.jsonl` (or csv)
   - at least 30 questions
   - categories:
     - 10 factual questions answerable from docs
@@ -43,16 +67,17 @@ Introduction to Context Engineering.
 ## Deliverables
 - README:
   - what the app does
-  - how to run Dify locally
+  - how to run it locally (Path A: `python rag_pipeline.py`, Path B: how to start Dify)
   - how to load KB
   - how to run the eval (even if manual)
-- eval_set file in repo
+- `eval/eval_set.jsonl` in repo
 - "Known limitations" section
+
 ## Gate 3A (PASS/FAIL)
 PASS if:
-- Dify app works end-to-end (ask → retrieval → answer)
-- at least some form of provenance/citation is present (if Dify supports it)
-- abstain policy exists and you tested it with "not in docs" queries
+- Pipeline works end-to-end (ask → retrieval → answer)
+- At least some form of provenance/citation is present
+- Abstain policy exists and you tested it with "not in docs" queries
 
 ---
 
@@ -74,8 +99,8 @@ PASS if:
     - correct / incorrect / abstain-correct / hallucination
 
 ## Deliverables
-- docs/data_pipeline.md (source + cleaning + KB versioning)
-- eval/results_v1.md + eval/results_v2.md (or one table with both)
+- `docs/data_pipeline.md` (source + cleaning + KB versioning)
+- `eval/results_v1.md` + `eval/results_v2.md` (or one table with both)
 - short release notes: "what changed and why"
 
 ## Gate 3B (PASS/FAIL) — Portfolio-ready RAG

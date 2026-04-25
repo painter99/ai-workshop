@@ -2,7 +2,7 @@
 
 You have:
 
-- 1–2 Dify apps runnable locally (RAG + agent)
+- 1–2 local LLM pipeline apps (Python-first or Dify/no-code) with RAG + agent
 - 1 LoRA/QLoRA fine-tuned SLM with measured improvement (trained cloud, served local)
 - Deep understanding of Context Engineering (Reranking, Memory, Chunking, Quantization)
 - Clear docs: README, setup, limitations, safety behavior, eval notes

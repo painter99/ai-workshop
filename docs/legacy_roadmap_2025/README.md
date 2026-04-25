@@ -1,7 +1,8 @@
 # PAVEL — DETAIL ROADMAP (12–24 months, 5h/week, Linux, local-first)
 
-**Goal:** Local-first Dify LLM apps + 1 fine-tuned SLM (trained Cloud -> served Local) + Agents
+**Goal:** Local-first Python LLM pipeline apps + 1 fine-tuned SLM (trained Cloud -> served Local) + Agents
 **Style:** low-friction, portfolio-ready outputs, deep context understanding
+**Philosophy:** Python-first, understand the code you run. No-code tools (Dify, Flowise, Langflow) are optional Path B — useful for prototyping and backend/FE-BE bridging, but not the primary learning vehicle.
 
 ---
 
@@ -74,7 +75,7 @@ Every phase ends with a concrete artifact in a repo:
 | [PHASE 1](./phases/phase-1-python-foundations.md)                     | PYTHON FOUNDATIONS + THEORY BASE           | 🔄     |
 | [PHASE 1.5](./phases/phase-1-5-engineering-hygiene-minimum.md)        | ENGINEERING HYGIENE MINIMUM                | 🔄     |
 | [PHASE 2](./phases/phase-2-python-to-ai-engineering-bridge.md)        | PYTHON → AI ENGINEERING BRIDGE             | ⬜     |
-| [PHASE 3](./phases/phase-3-first-llm-apps-dify-rag-eval.md)           | FIRST LLM APPS (DIFY) + RAG + CONTEXT ENG. | ⬜     |
+| [PHASE 3](./phases/phase-3-first-llm-apps-dify-rag-eval.md)           | FIRST LLM APPS + RAG + EVAL                | ⬜     |
 | [PHASE 3.5](./phases/phase-3-5-optional-accelerator.md)               | OPTIONAL ACCELERATOR                       | ⬜     |
 | [PHASE 4](./phases/phase-4-local-first-inference-edge-basics.md)      | LOCAL-FIRST INFERENCE / EDGE BASICS        | ⬜     |
 | [PHASE 5](./phases/phase-5-fine-tuning-slm-lora-qlora-measurement.md) | FINE-TUNING SLM (CLOUD-TO-LOCAL)           | ⬜     |
