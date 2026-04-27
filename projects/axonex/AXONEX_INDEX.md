@@ -12,6 +12,7 @@
 
 | Soubor | Typ | Poslední změna | Stav | Klíčový obsah |
 |--------|-----|----------------|------|---------------|
+| `README.md` | Veřejný úvod | 2026-04-27 | ✅ Aktuální | Elevator pitch, tech stack, status, use cases, HW požadavky, repo struktura |
 | `docs/prd.md` | Produkt | 2026-04-27 | ✅ Aktuální | Executive summary, personas, use cases, FR-1–FR-20, NFR, milestones |
 | `docs/tech_spec.md` | Architektura | 2026-04-27 | ✅ Aktuální | Stack, moduly A1.x–A4.x, datové toky, zamítnuté knihovny (11 položek) |
 | `docs/active_hypotheses.md` | Experimenty | 2026-04-25 | ⏳ 5 hypotéz čeká | H-TECH-001÷003, H-PERF-001, H-ARCH-001 — vše PROPOSED |
@@ -38,7 +39,7 @@
 
 **Fáze:** Pre-implementace — dokumentace kompletní, experimenty nezahájeny
 
-**Poslední aktivita:** 2026-04-27 — brainstorming session (6 bloků, Blok 6 přepracován)
+**Poslední aktivita:** 2026-04-27 — brainstorming session + README.md vytvořen
 
 **Příští logický krok:** Začít Krok A (`PLAN_LEHKY_START.md`) nebo otestovat hypotézu H-TECH-001 (Flet v COSMIC)
 
