@@ -138,14 +138,16 @@ OutputRenderer → tabulka v UI
 |---|---|---|
 | **FR-11** | Podmíněné větvení chainu (`BranchRouter`) na základě JSON klíčů. | P1 |
 | **FR-12** | Strukturované JSON logování (structlog) s trace per krok. | P1 |
+| **FR-13** | Podpora PDF vstupů přes `DoclingPDFParser`: konverze PDF faktur/dokumentů na Markdown před vstupem do chainu. | P1 |
 
 ### 6.3 Nice-to-have (v2.0+)
 
 | ID | Požadavek | Priorita |
 |---|---|---|
-| **FR-13** | Grafická vizualizace běžícího chainu (`ChainVisualizer`). | P2 |
-| **FR-14** | Paralelní (fan-out/fan-in) chainy. | P2 |
-| **FR-15** | Export chainu do sdíletlného formátu (recept-as-file). | P2 |
+| **FR-17** | Grafická vizualizace běžícího chainu (`ChainVisualizer`). | P2 |
+| **FR-18** | Paralelní (fan-out/fan-in) chainy. | P2 |
+| **FR-19** | Export chainu do sdíletlného formátu (recept-as-file). | P2 |
+| **FR-20** | Soukromý znalostní archiv (RAG): lokální embedding dokumentů uživatele do ChromaDB + vyhledávání přes FastEmbed; vše offline. | P2 |
 
 ---
 

@@ -56,6 +56,29 @@ AXONEX je **nativní desktopová aplikace pro Linux**, která slouží jako vizu
 | **Kompilace (primární)** | Nuitka | latest | Python → C → standalone binárka (`--onefile`). |
 | **Kompilace (záložní)** | PyInstaller | latest | Rychlé testovací buildy. |
 
+### 🚫 Zamítnuté knihovny — zdůvodněné rozhodnutí
+
+> Tento seznam dokumentuje nástroje, které byly zvažovány v rámci brainstormingu a byly vědomě odmítnuty. Slouží jako precedent pro budoucí diskuse.
+
+| Knihovna | Kategorie | Důvod zamítnutí |
+|---|---|---|
+| **LangGraph** | Orchestrace | Těžká závislost, overkill pro lineární chain; `asyncio` + PydanticAI pokrývají use-case elegantněji. |
+| **LangChain** | Orchestrace | Nadměrná komplexita, magické abstrakce skrývají chyby; přímý `httpx` je čitelnější a kontrolovatelnější. |
+| **oLLM / AirLLM** | LLM engine | Layer-by-layer načítání z disku → latence stovky sekund; nekompatibilní s TTFT < 500 ms. Vhodné jen pro offline batch zpracování. |
+| **ExLlamaV2** | LLM engine | Vyžaduje NVIDIA VRAM > 4 GB; HW Pavel má 1.4 GB VRAM (viz hardware constraint). |
+| **SGLang / vLLM / TensorRT-LLM** | Produkční server | Server-side enginy pro multi-user inference; AXONEX je single-user desktop aplikace. |
+| **LocalAI** | API wrapper | Přidává síťovou vrstvu navíc; Ollama/llama.cpp řeší to samé s méně přepalem. |
+| **MLC LLM / WebLLM** | Multi-platform | AXONEX v1.0 je Linux only; mobilní/browser target je v plánu mimo scope. |
+| **Unsloth** | Fine-tuning | PRD explicitně vylučuje trénování modelů (Non-goal). |
+| **CustomTkinter** | UI | Tkinter stack; AXONEX přijal Flet (Flutter) pro GPU akceleraci a streaming text. |
+| **ChromaDB / RAG stack** | Znalostní archiv | Hodnotné, ale out-of-scope pro v1.0; přidáno jako modul A2.7 pro v1.x plánování. |
+| **Docker kontejnerizace** | DevOps | Redundantní pro desktop hobby projekt; spravuje se přes venv + Nuitka binárka. |
+
+**Klíčový princip:** Pokud brainstorming nabídne nový nástroj ve stejné kategorii, odkaž na tento seznam a zdůvodni, proč je nová volba lepší než zamítnuté alternativy.
+
+---
+
+
 ### ⚠️ Otevřené otázky k ověření (před M1)
 
 | # | Otázka | Výchozí rozhodnutí |
@@ -136,6 +159,8 @@ axonex/
 | **A2.3** | `MultimodalProcessor` | Konverze obrázků (PNG/JPG/WebP) → Base64 + metadata (rozměry, mime type). | Drag-dropped obrázek se objeví jako Base64 v API requestu Vision modelu. |
 | **A2.4** | `ChainManager` | Předává výstup kroku $N$ jako vstup kroku $N{+}1$, injektuje system prompty, vede data-flow trace. | Plný trace vstup → transformace → výstup pro každý krok; logovatelné. |
 | **A2.5** | `BranchRouter` | Podmíněné větvení chainu na základě klíčů v JSON výstupu. Příklad podmínky: $\text{total} > 1000 \Rightarrow \text{větev A}$, jinak větev B. | DSL nebo lambda-based podmínky; unit testy pro všechny větve. |
+| **A2.6** *(v1.x)* | `DoclingPDFParser` | Konverze PDF dokumentů na čistý Markdown pomocí knihovny Docling (IBM). Zachovává strukturu tabulek — klíčové pro faktury. Doplňuje `MultimodalProcessor` (A2.3), který řeší obrázky. | PDF faktura → Markdown → `InvoiceSchema` pipeline projde end-to-end; tabulky jsou zachovány. |
+| **A2.7** *(v1.x)* | `RAGKnowledgeBase` | Soukromý znalostní archiv: embedding lokálních dokumentů do ChromaDB + FastEmbed → retrieval pro recept `document_analyzer`. Vše lokálně (žádný cloud). | Uživatel se zeptá na obsah svých dokumentů; odpověď vychází z nalezených útržků, ne z parametrů modelu. |
 
 #### A3. UI/UX — Tvář aplikace (COSMIC Style)
 
