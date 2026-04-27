@@ -77,13 +77,17 @@
 
 ---
 
-## Blok 6 — Python algoritmy repo pro začátečníky
+## Blok 6 — Python algoritmy pro samostudium (TheAlgorithms/Python)
+
+> Zdroje: [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) · [Dokumentace](https://thealgorithms.github.io/Python/README.html)
 
 | Myšlenka | Rozhodnutí | Zdůvodnění |
 |----------|-----------|------------|
-| **Celý blok** | ❌ **MIMO SCOPE** | Blok se týká obecného Python vzdělávání (maths, searches, strings). Nerelevantní pro AXONEX projekt. |
+| **TheAlgorithms/Python jako studijní materiál** | ✅ **PŘIJATO jako doplněk samostudia** | Největší open-source sbírka algoritmů v Pythonu (~180k hvězd). Hodnotný zdroj pro čtení cizího kódu, porozumění datovým strukturám a algoritmům. Přímá aplikace v AXONEX: sorting položek faktury, string processing při OCR, obecné programátorské myšlení. Doporučen jako paralelní studium k Python Mega Course — ne jako součást AXONEX produktu. |
+| **Integrace algoritmů přímo do AXONEX kódu** | ⚠️ **PODMÍNĚNĚ** — použít jen když to přijde přirozeně | Nehledat uměle způsob, jak nacpat algoritmus do AXONEX. Použít jako referenci, když narazím na reálný problém (seřazení položek faktury, vyhledávání v textu). |
+| **Oblasti k prostudování** | ✅ Sorting, Searches, Strings, Data Structures, Maths | Přímá relevance pro AXONEX i Python Mega Course. |
+| **Oblasti k odložení** | ⏸️ Graphs, Dynamic Programming, Blockchain, ML | Příliš abstraktní, mimo scope AXONEX v1.0. Odložit na pozdější fázi vzdělávání. |
 
----
 
 ## Souhrnná mapa změn provedených do dokumentů
 
