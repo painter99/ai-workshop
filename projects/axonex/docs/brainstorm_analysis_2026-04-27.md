@@ -30,7 +30,7 @@
 | Myšlenka | Rozhodnutí | Zdůvodnění |
 |----------|-----------|------------|
 | **LangGraph** | ❌ Viz Blok 1 | — |
-| **oLLM / AirLLM** | ❌ **ODMÍTNUTO** | Layer-by-layer disk loading → latence stovky sekund; nekompatibilní s TTFT < 500 ms. Vhodné pouze pro offline batch, ne pro interaktivní desktop. |
+| **oLLM / AirLLM** | ✅ **PODMÍNĚNĚ PŘIJATO** jako v1.x modul A1.2c | Layer-by-layer disk inference umožňuje spustit 70B+ modely na omezeném HW. Nepoužitelné pro interaktivní UX (latence minuty), ale hodnotné jako volitelný **Deep Analysis backend** pro scénáře 'několik spuštění za směnu'. Přidáno do tech_spec sekce 1.3 a A1.2c. |
 | **ExLlamaV2** | ❌ **ODMÍTNUTO** | Vyžaduje VRAM > 4 GB; Pavel má ~1.4 GB dostupných. |
 | **ChromaDB + FastEmbed** | ✅ **PŘIJATO** jako v1.x modul A2.7 | Lokální vektorová DB bez cloudu. Hodnotná pro RAG recept (document archiv). Přidána jako FR-20 (P2 Nice-to-have). |
 | **Docling** | ✅ Viz Blok 1 | — |
@@ -57,9 +57,9 @@
 
 | Myšlenka | Rozhodnutí | Zdůvodnění |
 |----------|-----------|------------|
-| **oLLM jako volitelný Ultra-Precision modul** | ❌ **ODMÍTNUTO** pro v1.0 | Pro AXONEX desktop aplikaci je latence kritičtější než přesnost. oLLM by degradoval UX. Vhodné pro budoucí offline batch modul — mimo scope v1.0. |
-| **Princip: NVMe SSD jako kritická závislost** | ✅ **ZAZNAMENÁNO** jako poznámka k requirements | HW doporučení — přidáno do paměti. |
-| **Princip: latence > přesnost pro desktop UX** | ✅ **ZAZNAMENÁNO** jako architectural principle | Potvrzuje volbu Ollama (kvantizované modely) před oLLM pro interaktivní scénáře. |
+| **oLLM jako volitelný Ultra-Precision modul** | ✅ **PŘEHODNOCENO — PODMÍNĚNĚ PŘIJATO** | Pavel upozornil na legitimní use case: offline batch zpracování s 70B+ modely pro maximální soukromí a přesnost (scénář 'několik spuštění za směnu'). oLLM přidáno jako volitelný Deep Analysis backend (A1.2c) — jasně odděleno od interaktivního UX. |
+| **Princip: NVMe SSD jako kritická závislost** | ✅ **ZAZNAMENÁNO** jako HW requirement | Pro Deep Analysis mód s oLLM je NVMe SSD kritický — layer-by-layer disk loading přímo závisí na I/O rychlosti. |
+| **Princip: latence > přesnost pro desktop UX** | ✅ **UPŘESNĚNO** jako dual-mode princip | Platí pro Interactive mód. Deep Analysis mód má opačnou prioritu: přesnost > latence. Obojí je validní v různých kontextech. |
 
 ---
 

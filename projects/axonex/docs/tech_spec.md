@@ -33,6 +33,7 @@ AXONEX je **nativní desktopová aplikace pro Linux**, která slouží jako vizu
 | Fáze | Engine | Účel |
 |---|---|---|
 | **Prototyp / MVP** | **Ollama** (REST API `localhost:11434`) | Rychlý setup, iterativní ladění chainů, snadná správa modelů, validace konceptu. |
+| **Deep Analysis** *(opt.)* | **oLLM / AirLLM** | Volitelný batch backend pro offline zpracování s 70B+ modely na omezeném HW (layer-by-layer CPU/disk inference). Latence minuty–desítky minut; akceptovatelné pro scénáře několika spuštění za směnu. Přidá se jako `A1.2c` v v1.x. |
 | **Produkce** | **llama.cpp** (přes `llama-cpp-python`) | Finální distribuce — přímé načítání GGUF modelů, eliminace režie wrapperu, nižší latence, menší binárka, plná kontrola. |
 
 > **Přechod Ollama → llama.cpp** je plánován jako jeden z posledních kroků vývoje, po ověření všech use-caseů v prototypu. Vyžaduje výměnu jediného adapter modulu (`A1.2b`).
@@ -64,7 +65,7 @@ AXONEX je **nativní desktopová aplikace pro Linux**, která slouží jako vizu
 |---|---|---|
 | **LangGraph** | Orchestrace | Těžká závislost, overkill pro lineární chain; `asyncio` + PydanticAI pokrývají use-case elegantněji. |
 | **LangChain** | Orchestrace | Nadměrná komplexita, magické abstrakce skrývají chyby; přímý `httpx` je čitelnější a kontrolovatelnější. |
-| **oLLM / AirLLM** | LLM engine | Layer-by-layer načítání z disku → latence stovky sekund; nekompatibilní s TTFT < 500 ms. Vhodné jen pro offline batch zpracování. |
+| **oLLM / AirLLM** | LLM engine (Deep Analysis) | Layer-by-layer disk loading → latence minuty až desítky minut. **Nepoužitelné pro interaktivní režim** (TTFT < 500 ms), ale **hodnotné jako volitelný Deep Analysis backend** pro offline batch (70B+ modely, několik spuštění za směnu). Viz sekce 1.3 — Deep Analysis Mode. |
 | **ExLlamaV2** | LLM engine | Vyžaduje NVIDIA VRAM > 4 GB; HW Pavel má 1.4 GB VRAM (viz hardware constraint). |
 | **SGLang / vLLM / TensorRT-LLM** | Produkční server | Server-side enginy pro multi-user inference; AXONEX je single-user desktop aplikace. |
 | **LocalAI** | API wrapper | Přidává síťovou vrstvu navíc; Ollama/llama.cpp řeší to samé s méně přepalem. |
@@ -146,6 +147,7 @@ axonex/
 | **A1.2** | `LLMAdapterBase` (ABC) | Abstraktní rozhraní s metodami `generate()`, `chat()`, `stream()`, `health_check()`. | Všechny konkrétní adaptery dědí a implementují identický kontrakt. |
 | **A1.2a** | `OllamaAdapter` | Async wrapper pro Ollama REST API (`/api/generate`, `/api/chat`), JSON mode, streaming přes SSE/NDJSON. | TTFT < 500 ms; stream tokenů bez bufferingu. |
 | **A1.2b** | `LlamaCppAdapter` | Přímá integrace přes `llama-cpp-python`. Stejný kontrakt jako Ollama adapter. | Swap backendu změnou jedné hodnoty v `config.toml`; regression testy pass. |
+| **A1.2c** *(v1.x opt.)* | `OLLMAdapter` | Volitelný batch backend přes `oLLM` nebo `AirLLM`. Layer-by-layer CPU/disk inference pro 70B+ modely na omezeném HW. **Nepoužitelné pro interaktivní UX** — výhradně pro Deep Analysis recepty s akceptovatelnými minutovými latencemi. | Backend se aktivuje přepnutím v `config.toml`; integrace test s 10-minutovým timeoutem projde. |
 | **A1.3** | `StreamHandler` | Zachytávání token-by-token streamu, buffer a push do UI queue (async). | UI zobrazuje tokeny průběžně; žádné „trhání"; latence < 100 ms od přijetí tokenu. |
 | **A1.4** | `ModelRegistry` | TOML/dict konfigurace mapující role → modely (např. `vision: granite-vision-4b`, `analyst: qwen3.5-9b`). | Změna modelu pouze editací `config.toml`; žádný zásah do kódu. |
 | **A1.5** | `HealthCheck` | Startup probe: ověří dostupnost aktivního backendu. Při selhání → `ErrorOverlay` s instrukcemi. | Spuštění bez backendu nespadne; uživatel vidí jasnou hlášku. |
