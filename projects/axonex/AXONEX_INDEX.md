@@ -22,9 +22,9 @@
 
 | Soubor | Typ | Poslední změna | Stav | Klíčový obsah |
 |--------|-----|----------------|------|---------------|
-| `docs/brainstorm_analysis_2026-04-27.md` | Brainstorm | 2026-04-27 | ✅ Commitnuto | 6 bloků: Docling ✅, oLLM ⚠️, LangGraph ❌, TheAlgorithms ✅ jako studijní zdroj |
+| `docs/brainstorm_pivot_2026-04-28.md` | Brainstorm | 2026-04-28 | ✅ Hotovo | Produktový pivot — nová vize, personas, HitL, Flatpak/AppImage |
+| `docs/brainstorm_analysis_2026-04-27.md` | Brainstorm | 2026-04-27 | ✅ Historický | 6 bloků: Docling ✅, oLLM ⚠️, LangGraph ❌, TheAlgorithms ✅ |
 | `docs/hypothesis_registry.md` | Šablona | 2026-04-24 | 📋 Šablona | Prázdný registr se šablonou pro nové hypotézy |
-| `DEVELOPMENT_TOOLSTACK.md` | Nástroje | 2026-04-25 | 📋 Reference | Doporučený toolstack pro AXONEX vývoj |
 
 ### Interní záznamy (v .gitignore — nepublikovat)
 
@@ -35,13 +35,12 @@
 
 ---
 
-## 🎯 Aktuální stav projektu
+**Fáze:** Pre-implementace — pivot brief schválen, dokumentace čeká na přepis
 
-**Fáze:** Pre-implementace — dokumentace kompletní, experimenty nezahájeny
+**Poslední aktivita:** 2026-04-28 — produktový pivot, brainstorm brief dokončen
 
-**Poslední aktivita:** 2026-04-27 — brainstorming session + README.md vytvořen
+**Příští logický krok:** Schválit pivot brief → přepsat PRD + Tech spec → začít Krok A (jednoduchý PoC)
 
-**Příští logický krok:** Začít Krok A (`PLAN_LEHKY_START.md`) nebo otestovat hypotézu H-TECH-001 (Flet v COSMIC)
 
 ---
 
